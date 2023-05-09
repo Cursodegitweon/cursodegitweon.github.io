@@ -17,16 +17,16 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'お帰りなさいませ',
-	greetingAfternoon: 'お帰りなさいませ,',
-	greetingEvening: 'お帰りなさいませ,',
-	greetingNight: '御休みなさい',
+	greetingMorning: 'お帰りなさいませ、',
+	greetingAfternoon: 'お帰りなさいませ、',
+	greetingEvening: 'お帰りなさいませ、',
+	greetingNight: '御休みなさい、',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'https://api.open-meteo.com/v1/forecast?latitude=-34.59&longitude=-58.60&hourly=temperature_2m,relativehumidity_2m,apparent_temperature,precipitation_probability,precipitation,rain,showers,snowfall,snow_depth,cloudcover,cloudcover_low,cloudcover_mid,cloudcover_high,visibility,windspeed_10m,windspeed_80m,windspeed_120m,windspeed_180m,winddirection_10m,winddirection_80m,winddirection_120m,winddirection_180m,is_day&daily=temperature_2m_max,temperature_2m_min&current_weather=true&timezone=America%2FSao_Paulo', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
