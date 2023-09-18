@@ -153,46 +153,64 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			//icon: 'music',
+			icon: 'briefcase',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-			],
-		},
-		{
-			icon: 'coffee',
-			id: '2',
-			links: [
-				{
+					//name: 'Inspirational',
+					//link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 					name: 'Linkedin',
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
+					//name: 'Classic',
+					//link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 					name: 'Slack',
 					link: 'https://www.slack.com',
+				},
+				{
+					//name: 'Oldies',
+					//link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Discord',
+					link: 'https://discord.com/login',
+				},
+				{
+					//name: 'Rock',
+					//link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Musixmatch',
+					link: 'https://www.musixmatch.com/es/sign-in',
+				},
+			],
+		},
+		{
+			//icon: 'coffee',
+			icon: 'coffee',
+			id: '2',
+			links: [
+				{
+					//name: 'Linkedin',
+					//link: 'https://www.linkedin.com',
+					name: 'Telegram',
+					link: 'https://web.telegram.org/k/',
+				},
+				{
+					//name: 'Dribbble',
+					//link: 'https://www.dribbble.com',
+					name: 'Tandem',
+					link: 'https://app.tandem.net/login',
+				},
+				{
+					//name: 'Trello',
+					//link: 'https://www.trello.com',
+					name: 'Renshuu',
+					link: 'https://www.renshuu.org/login',
+				},
+				{
+					//name: 'Slack',
+					//link: 'https://www.slack.com',
+					name: 'Steam Store',
+					link: 'https://store.steampowered.com/?l=english',
 				},
 			],
 		},
