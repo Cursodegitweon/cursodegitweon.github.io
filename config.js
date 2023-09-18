@@ -52,40 +52,58 @@ const CONFIG = {
 
 	firstButtonsContainer: [
 		{
-			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
-		},
-		{
-			id: '2',
+			id: '1', // 1
+			//name: 'Github',
+			//icon: 'github',
+			//link: 'https://github.com/',
 			name: 'Mail',
 			icon: 'mail',
 			link: 'https://mail.protonmail.com/',
 		},
 		{
-			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
-		},
-		{
-			id: '4',
+			id: '2', // 2
+			//name: 'Mail',
+			//icon: 'mail',
+			//link: 'https://mail.protonmail.com/',
 			name: 'Calendar',
 			icon: 'calendar',
 			link: 'https://calendar.google.com/calendar/r',
 		},
 		{
-			id: '5',
+			id: '3', // 4
+			//name: 'Todoist',
+			//icon: 'trello',
+			//link: 'https://todoist.com',
+			name: 'Khan Academy',
+			icon: 'graduation-cap',
+			link: 'https://es.khanacademy.org/login',
+		},
+		{
+			id: '4', // 5
+			//name: 'Calendar',
+			//icon: 'calendar',
+			//link: 'https://calendar.google.com/calendar/r',
 			name: 'Reddit',
 			icon: 'glasses',
 			link: 'https://reddit.com',
 		},
 		{
-			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			id: '5', // 3
+			//name: 'Reddit',
+			//icon: 'glasses',
+			//link: 'https://reddit.com',
+			name: 'Todoist',
+			icon: 'trello',
+			link: 'https://todoist.com',
+		},
+		{
+			id: '6', // 6
+			//name: 'Odysee',
+			//icon: 'youtube',
+			//link: 'https://odysee.com/',
+			name: 'Github',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 	],
 
